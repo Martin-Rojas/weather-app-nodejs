@@ -1,0 +1,23 @@
+{
+   "name": "weather-app-nodejs",
+   "version": "1.0.0",
+   "type": "module",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "dev": "nodemon app.js",
+      "start": "node app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Martin-Rojas/weather-app-nodejs.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Martin-Rojas/weather-app-nodejs/issues"
+   },
+   "homepage": "https://github.com/Martin-Rojas/weather-app-nodejs#readme"
+}
