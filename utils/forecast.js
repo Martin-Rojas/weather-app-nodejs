@@ -4,7 +4,7 @@ import request from "request";
 dotenv.config({ quiet: true });
 
 const weatherstack = (latitude, longitude, callback) => {
-   const url = `https://api.weatherstack.com/current?access_key=${process.env.weatherstack_access_key}&query=${latitude},${longitude}`;
+   const url = `https://api.weatherstack.com/current?access_key=${process.env.WEATHERSTACK_ACCESS_KEY}&query=${latitude},${longitude}`;
 
    request({ url: url, json: true }, (error, response) => {
       if (error) {
